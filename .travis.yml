@@ -4,7 +4,7 @@ rvm:
 script:
 - bundle exec jekyll build
 after_success:
-- cd ./_site && find . -type f -exec curl -u $FTP_SUSER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bastriaan.nl/{} \;
+- cd ./_site && find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bastriaan.nl/{} \;
 env:
   global:
   - secure: jAYfugp88n/82gjZlx98Q9qinOMiN42Ntf4E2EtLGvB7j169tCqY3v0zE4pMficHgwdXtAgMSUVMJ6C3wkbqqZiEBo90PZB0GeT5Z49USo70qfliVP7JlIv/MRS/VWHkYZ9gTulHz/2EPkC5DeaxHyx9eBWSuuZnA/clvcTca/nVgRcDkPNkYIHS/BaDr2CMuTaTbdXfIiPCIHDIgYXfdQgFD24tsw9RqkU6WQ9AkfnPQrgAFJpVRvy4J7g1PEhYg3cpld0y+t7A1aco7h4p7kZsAv4ADCLk34W71itqwx5fpv3IfxIE6XxfAJYKVx/J/3s6UYsvOGfuW6YGB5IOKKafIEuXiNDWsCdR0TUNCFNbjQmEDNTztEtgxLLXvyeLl4kqQB6/Dc7xksr/7e00RiWP+BFSeKoPEz5Kgv0bMrClzR33SKltaXNRaGOjJsuKJZx1L23xT09AoGsC6mQBF6ihjgQMQM+sc0cFTe3HzfxHsRE3HFFfuDa+dwXWOOZanZ64nTALWEcr9mNX4a24dFvQWPHHVe/LN5gnT4HFfufd5ZeBNWXZkaqBm1s6UK6zN7FoSVTZeGYHNqFxUTm1BjA0m7Xg06Fq/5SI1zYDLiy7+jeToF0/3clgJLyDF0T+yi5LRux+VxQG+umqeOd29nSeh+sbRvnQFnmvbUMV0J8=
