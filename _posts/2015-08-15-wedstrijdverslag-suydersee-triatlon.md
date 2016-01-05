@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Wedstrijdverslag Suydersee"
-date: 2015-08-15 15:50:28
+title: Wedstrijdverslag Suydersee
+date: 2015-08-15T15:50:28.000Z
 categories: triatlon wedstrijden
-author_name : Bastiaan Schaap
-author_url : /auteur/bastiaan
+author_name: Bastiaan Schaap
+author_url: /auteur/bastiaan
 author_avatar: bastiaan
-show_avatar : true
-read_time : 34
+show_avatar: true
+read_time: 34
 feature_image: feature-suydersee-zwemmen-3
 show_related_posts: false
 square_related: recommend-wolf
@@ -25,6 +25,6 @@ Kale chips bespoke church-key American Apparel flannel pickled. Mlkshk High Life
 
 Locavore brunch kale chips vegan selvage High Life you probably haven't heard of them before they sold out pork belly. Flexitarian organic wayfarers, cronut food truck bicycle rights drinking vinegar bespoke meditation mustache swag mumblecore semiotics locavore. Whatever kogi readymade, jean shorts pork belly chia distillery wayfarers. Art party single-origin coffee four dollar toast VHS, try-hard hoodie kogi normcore Neutra actually church-key flexitarian swag.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll]: http://jekyllrb.com
+[jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

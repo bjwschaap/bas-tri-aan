@@ -5,7 +5,7 @@ description: > # Bas-tri-aan is mijn blog waarop ik mijn
   avonturen als (beginnend) triatleet met jullie
   wil delen.
 baseurl: ""
-url: ""
+url: "http://bastriaan.nl"
 enable_retina: false
 permalink: :title
 nav_list:
@@ -14,13 +14,16 @@ nav_list:
   Wedstrijdkalender : ['Wedstrijden', '/wedstrijden', 'fa-calendar']
   Contact : ['Contact', '/contact', 'fa-phone-square']
   Author : ['Auteur', '/auteur/bastiaan', 'fa-user']
-single_footer: '<p>First steps in triathlon. Bastiaan Schaap &copy; 2015 <a href="/">nieuwste posts</a></p>'
+single_footer: '<p>First steps in triathlon. Bastiaan Schaap &copy; 2016 <a href="/">nieuwste posts</a></p>'
 footer_links:
     About: ['Over mij', '/about']
-    Writer: ['Bastiaan 2015', '/auteur/bastiaan']
+    Writer: ['Bastiaan 2016', '/auteur/bastiaan']
 twitter-url : 'https://twitter.com/bjwschaap'
-facebook-url : 'http://www.facebook.com/bjwschaap'
+facebook-url : 'https://www.facebook.com/bastiaan.schaap'
+timezone: 'Europe/Amsterdam'
+encoding: 'utf-8'
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 exclude: [vendor]
