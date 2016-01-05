@@ -1,0 +1,25 @@
+# Site settings
+title: Bas-tri-aan
+email: info@bastriaan.nl
+description: > # Bas-tri-aan is mijn blog waarop ik mijn
+  avonturen als (beginnend) triatleet met jullie
+  wil delen.
+baseurl: ""
+url: ""
+enable_retina: false
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  Over mij : ['Over mij', '/about', 'fa-question-circle']
+  Wedstrijdkalender : ['Wedstrijden', '/wedstrijden', 'fa-calendar']
+  Contact : ['Contact', '/contact', 'fa-phone-square']
+  Author : ['Auteur', '/auteur/bastiaan', 'fa-user']
+single_footer: '<p>First steps in triathlon. Bastiaan Schaap &copy; 2015 <a href="/">nieuwste posts</a></p>'
+footer_links:
+    About: ['Over mij', '/about']
+    Writer: ['Bastiaan 2015', '/auteur/bastiaan']
+twitter-url : 'https://twitter.com/bjwschaap'
+facebook-url : 'http://www.facebook.com/bjwschaap'
+
+# Build settings
+markdown: kramdown
