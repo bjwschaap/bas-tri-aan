@@ -4,4 +4,4 @@ rvm:
 script:
 - bundle exec jekyll build
 after_success:
-- cd ./_site && find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bastriaan.nl/{} \;
+- cd ./_site && find . -type f -exec curl -u "${FTP_USER}:${FTP_PASSWORD}" --ftp-create-dirs -T {} ftp://ftp.bastriaan.nl/{} \;
