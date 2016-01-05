@@ -23,3 +23,4 @@ facebook-url : 'http://www.facebook.com/bjwschaap'
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]
